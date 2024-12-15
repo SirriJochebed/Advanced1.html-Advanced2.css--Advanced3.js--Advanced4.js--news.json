@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website</title>
+    <link rel="stylesheet" href="Complex2.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-button">Search</button>
+        </div>
+        <nav>
+            <ul class="dropdown-menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">About Us</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">SEO</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section id="services-section">
+            <h2>Our Services</h2>
+            <div class="tabs">
+                <button class="tab-button" data-tab="1">Web Design</button>
+                <button class="tab-button" data-tab="2">SEO</button>
+                <button class="tab-button" data-tab="3">Content Marketing</button>
+            </div>
+                <p>Select a service to see more details.</p>
+           
+            <article id="tab-content"> 
+
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <form id="newsletter-form ">
+            <p>
+            Enter your email here inorder to get more news letters.</p>
+            <label for="email">Subscribe to our newsletter:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+
+    <!-- JavaScript link -->
+    <script src="Complex3.js"></script>
+</body>
+</html>

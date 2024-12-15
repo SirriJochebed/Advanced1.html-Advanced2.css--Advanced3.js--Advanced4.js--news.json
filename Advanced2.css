@@ -1,0 +1,80 @@
+/* Root Variables for Colors and Fonts */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #f4f4f4;
+    --font-family: Arial, sans-serif;
+}
+
+/* General Styles */
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 50px;
+    height: 70px;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Section Grid Layout */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Slider takes more space */
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Slider */
+.slider {
+    background: var(--secondary-color);
+    padding: 1px;
+    border-radius: 2px;
+}
+
+/* Sidebar */
+.news {
+    background: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Typography */
+h2 {
+    font-size: 2.5vw; /* Responsive heading size */
+}
+
+p {
+    font-size: 1.2vw; /* Responsive paragraph size */
+}
